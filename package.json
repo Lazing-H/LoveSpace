@@ -3,6 +3,6 @@
   "private": true,
   "scripts": {
     "build": "cd qd && npm install && npm run build",
-    "deploy": "npx wrangler deploy"
+    "deploy": "npm run build && npx wrangler deploy"
   }
 }
