@@ -1,0 +1,8 @@
+{
+  "name": "love-space",
+  "private": true,
+  "scripts": {
+    "build": "cd qd && npm install && npm run build",
+    "deploy": "npx wrangler deploy"
+  }
+}
